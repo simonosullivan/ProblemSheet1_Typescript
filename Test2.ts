@@ -1,0 +1,20 @@
+let happy: boolean = true;
+console.log("Are you happy : "+happy);
+let age: Number = 20;
+console.log("What age are you : "+age);
+let namee: String = "Simon";
+console.log("Name : "+namee);
+let list: number[] = [1,2,3];
+console.log("print numbers in list : "+list);
+let x: [string, number];
+// Initialize it
+x = ["hello", 10];
+console.log(x[0].substr(1)); 
+//x[2] = "world";
+enum words {hi = 2, bye, hello = 5};
+let c: words = words.hello;
+let wordsName: string = words[3];
+console.log(c +" "+wordsName);
+let notSure: any = "Why";
+notSure = false;
+console.log("notSure = "+notSure);
